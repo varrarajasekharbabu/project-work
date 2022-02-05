@@ -24,6 +24,7 @@
   </dependencies>
   <build>
     <finalName>WebApp</finalName>
+<<<<<<< HEAD
      <plugins>
          <plugin>
 	     <groupId>org.apache.tomcat.maven</groupId>
@@ -38,4 +39,19 @@
      </plugins>
 
 </build>
+=======
+    <plugins>
+         <plugin>
+             <groupId>org.apache.tomcat.maven</groupId>
+             <artifactId>tomcat7-maven-plugin</artifactId>
+             <version>2.2</version>
+             <configuration>
+                 <url>http://localhost:8080/manager/text</url>
+                 <server>TomcatServer</server>
+                 <path>/WebApp</path>
+             </configuration>
+         </plugin>
+     </plugins>
+  </build>
+>>>>>>> ca3555ac47b90eed20be0b202639759513f76d74
 </project>
