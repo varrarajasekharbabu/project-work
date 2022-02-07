@@ -6,5 +6,10 @@ pipeline{
 	    echo "cloning the repository"
 	  }
 	}
-     }
+    stage('build'){
+      steps{
+	echo "Build the project"
+      }
+    }
   }
+}
