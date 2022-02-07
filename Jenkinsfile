@@ -3,8 +3,8 @@ pipeline{
   stages{
     stage('checkout'){
 	  steps{
-	    echo "cloning the repository
+	    echo "cloning the repository"
 	  }
 	}
+     }
   }
-}
