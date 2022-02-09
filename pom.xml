@@ -37,7 +37,7 @@
 	     </configuration>
          </plugin>
      </plugins>
-
+<!--
 </build>
 	
     <plugins>
@@ -52,6 +52,7 @@
              </configuration>
          </plugin>
      </plugins>
+-->
   </build>
 
 </project>
