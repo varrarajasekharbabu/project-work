@@ -24,8 +24,8 @@
   </dependencies>
   <build>
     <finalName>WebApp</finalName>
-<<<<<<< HEAD
-     <plugins>
+
+    <plugins>
          <plugin>
 	     <groupId>org.apache.tomcat.maven</groupId>
 	     <artifactId>tomcat7-maven-plugin</artifactId>
@@ -39,7 +39,7 @@
      </plugins>
 
 </build>
-=======
+	
     <plugins>
          <plugin>
              <groupId>org.apache.tomcat.maven</groupId>
@@ -53,5 +53,5 @@
          </plugin>
      </plugins>
   </build>
->>>>>>> ca3555ac47b90eed20be0b202639759513f76d74
+
 </project>
